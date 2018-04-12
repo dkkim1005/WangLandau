@@ -16,7 +16,7 @@
 #define MIN(a, b) (a<b) ? a:b
 #define ROUNDOFF(X) static_cast<int>(floor(X+0.5))
 
-// Randon number generator based on the TRNG4
+// Randon number generator based on the TRNG4(https://github.com/rabauke/trng4.git)
 template<typename T = double>
 class TinaRNG
 {
