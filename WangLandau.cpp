@@ -10,7 +10,6 @@
 #include <fstream>
 #include <iomanip>
 #include <string>
-#include <assert.h>
 #include <trng/yarn2.hpp>
 #include <trng/uniform01_dist.hpp>
 
